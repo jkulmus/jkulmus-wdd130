@@ -1,0 +1,16 @@
+@import url(https://fonts.google.com/selection/embed);
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:var {
+    --primary-color: #dadccc;
+    --secondary-color: #385c5d;
+    --accent1_color: #c37c50;
+    --accent2-color: #6ca38e;
+
+    --heading-font:'bree', serif;
+    --paragraph-font: 'libre caslon', serif;
+}
