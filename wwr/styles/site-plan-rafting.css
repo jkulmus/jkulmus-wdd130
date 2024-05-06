@@ -1,4 +1,9 @@
-@import url(https://fonts.google.com/selection/embed);
+@import url(.bree-serif-regular) {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
