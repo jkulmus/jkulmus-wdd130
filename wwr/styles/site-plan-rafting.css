@@ -10,7 +10,7 @@ h2 {
     font-family: "Permanent Marker", cursive;
 }
 
-:root {
+:var {
     --primary-color: #dadccc;
     --secondary-color: #385c5d;
     --accent1_color: #c37c50;
