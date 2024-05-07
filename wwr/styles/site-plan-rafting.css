@@ -1,74 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') ;
 
-:root {
-    --primary-color: #dadccc;
-    --secondary-color: #385c5d;
-    --accent1_color: #c37c50;
-    --accent2-color: #6ca38e;
-
-    --heading-font:'Permanent Marker', cursive;
-    --paragraph-font: "Roboto", sans-serif;
-
-    --nav-background-color: #dadccc
-    --nav-link-color: #6ca38e
-    --nav-hover-link-color: #c37c50
-    --nav-hover-background-color: #385c5d
+@font-face {
+font-family : 'Permanent Marker';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004Hao.ttf) format('truetype');
 }
 
-.my-element {
-    color: var(--primary-color #dadccc);    
-  }
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 100;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOiCnqEu92Fr1Mu51QrIzc.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TjARc9.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu52xP.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51S7ABc9.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TzBhc9.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : italic;
+font-weight : 900;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOjCnqEu92Fr1Mu51TLBBc9.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 100;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 300;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 400;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 500;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 700;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+
+@font-face {
+font-family : 'Roboto';
+font-style : normal;
+font-weight : 900;
+font-display : swap;
+src : url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtvAw.ttf) format('truetype');
+}
 
 [data-tts-block-id].tts-active {
-    background : rgb(206, 225, 255, 0.9) !important;
+background : rgb(206, 225, 255, 0.9) !important ;
 }
 
 [data-tts-sentence-id].tts-active {
-    background : rgb(0, 89, 191, 0.7) !important;
+background : rgb(0, 89, 191, 0.7) !important ;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    max-width: 960px;
-    padding: 20px;
+font-family : "Roboto", sans-serif;
+max-width : 960px;
+padding : 20px;
 }
 
 h2 {
-    font-family: "Permanent Marker", cursive;
+font-family : "Permanent Marker", cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #385c5d;
+color : #385c5d;
 }
 
-
 header {
-    padding: 20px;
-    background-color: #dadccc;
+padding : 20px;
+background-color : #dadccc;
 }
 
 p {
-    padding: 25px;
+padding : 25px;
 }
 
 nav {
-    background-color: #dadccc;
-    font-size: 1.2rem;
-    display: flex;
+background-color : #dadccc;
+font-size : 1.2rem;
+display : flex;
 }
 
 nav a {
-    display: block;
-    color: #6ca38e;
-    text-decoration: none;
-    padding: 1rem;
+display : block;
+color : #6ca38e;
+text-decoration : none;
+padding : 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: #6ca38e;
+color : #6ca38e;
 }
 
 nav a:hover {
-    color: #c37c50;
-    background-color: #6ca38e;
-}
+color : #c37c50;
+background-color : #6ca38e;
