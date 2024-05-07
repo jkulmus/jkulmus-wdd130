@@ -10,21 +10,6 @@ h2 {
     font-family: "Permanent Marker", cursive;
 }
 
-:var {
-    --primary-color: #dadccc;
-    --secondary-color: #385c5d;
-    --accent1_color: #c37c50;
-    --accent2-color: #6ca38e;
-
-    --heading-font:'Permanent Marker', cursive;
-    --paragraph-font: 'Barlow', serif;
-
-    --nav-background-color: #dadccc
-    --nav-link-color: #6ca38e
-    --nav-hover-link-color: #c37c50
-    --nav-hover-background-color: #6ca38e
-}
-
 :root {
     --primary-color: #dadccc;
     --secondary-color: #385c5d;
