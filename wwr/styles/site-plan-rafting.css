@@ -15,6 +15,10 @@
     --nav-hover-background-color: #385c5d
 }
 
+.my-element {
+    color: var(--primary-color #dadccc);    
+  }
+
 [data-tts-block-id].tts-active {
     background : rgb(206, 225, 255, 0.9) !important;
 }
