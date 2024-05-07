@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: 'Barlow', serif;
     max-width: 960px;
     padding: 20px;
 }
