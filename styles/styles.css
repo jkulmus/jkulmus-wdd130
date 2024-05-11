@@ -11,8 +11,8 @@ nav {
 
 nav a {
     color: white;
+    padding: 10px;
     display: block;
-    padding: 20px;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 main img {
@@ -32,6 +32,10 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
+}
+
+p {
+    margin: 1rem;
 }
 
 aside {
