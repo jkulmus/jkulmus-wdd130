@@ -38,6 +38,10 @@ p {
     margin: 1rem;
 }
 
+p {
+    padding: 10px;
+}
+
 aside {
     width: 20em;
     margin: 1em;

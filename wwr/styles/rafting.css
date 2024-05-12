@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-color: #dadccc;
+    --secondary-color: #385c5d;
+    --accent1-color: #c37c50;
+    --accent2-color: #6ca38e;
+
+    --nav-background-color: var(--accent2-color)
+    --nav-link-color: ;
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color: ;
+
+    --heading-font: "Permanent Marker", 'cursive';
+    --paragraph-font: 'Roboto', 'san-serif';
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: #000;
+}
+
+img {
+    width: 100%;
+}
