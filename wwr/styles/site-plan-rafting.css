@@ -6,13 +6,13 @@
     --accent1-color: #c37c50;
     --accent2-color: #6ca38e;
 
-    --heading-font: "Permanent Marker", cursive;
-    --paragraph-font: "Roboto", sans-serif;
+    --nav-background-color: var(--accent2-color)
+    --nav-link-color: ;
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-background-color: ;
 
-    --nav-background-color: #dadccc;
-    --nav-link-color: #6ca38e;
-    --nav-hover-link-color: #c37c50;
-    --nav-hover-bacground-color: #385c5d;
+    --heading-font: "Permanent Marker", 'cursive';
+    --paragraph-font: 'Roboto', 'san-serif';
 }
 
 [data-tts-block-id].tts-active {

@@ -38,3 +38,85 @@ h6 {
 img {
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* CSS for header */
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    background-color: ;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    font-family: var(--heading-font);
+    justify-content: space-around;
+}
+
+nav a {
+    display: flex;
+    padding: 1em;
+    margin: 0;
+    font-family: var(--heading-font);
+    color: ;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background-color: ;
+    color: ;
+}
+
+.cta {
+    background-color: ;
+    color: ;
+    border: 1px solid #333;
+    box-shadow: 10px 10px 5px #333;
+    padding: 1em;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.cta:hover {
+    background-color: ;
+    color: ;
+}
+
+.cta:active {
+    background-color: ;
+    color: ;
+}
+
+/* CSS for hero images*/
+.hero {
+    position: relative;
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+
+.hero>img {
+    grid-column: 1/-1;
+    grid-row: 1/6;
+}
+
+/* CSS for About Us */
+
