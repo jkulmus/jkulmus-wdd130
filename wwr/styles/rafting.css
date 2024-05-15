@@ -5,10 +5,10 @@
     --secondary-color: #385c5d;
     --accent1-color: #c37c50;
     --accent2-color: #6ca38e;
-    --nav-background-color: var(--accent2-color)
-    --nav-hover-link-color: var(--secondary-color);
+    --nav-background-color: var(--primary-color);
+    --nav-hover-link-color: var(--accent1-color);
     --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color: var(--primary-color);
+    --nav-hover-background-color: var(--secondary-color);
     --heading-font: "Permanent Marker", 'cursive';
     --paragraph-font: 'Roboto', 'san-serif';
 }
