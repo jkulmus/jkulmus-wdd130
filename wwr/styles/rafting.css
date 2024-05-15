@@ -7,9 +7,9 @@
     --accent2-color: #6ca38e;
 
     --nav-background-color: var(--accent2-color)
-    --nav-link-color: ;
+    --nav-link-color: var(--secondary-color);
     --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color: ;
+    --nav-hover-background-color: var(--primary-color);
 
     --heading-font: "Permanent Marker", 'cursive';
     --paragraph-font: 'Roboto', 'san-serif';
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: #000;
+    color: var(--secondary-color);
 }
 
 img {
@@ -58,7 +58,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
-    background-color: ;
+    background-color: var(--primary-color);
 }
 
 .logo {
@@ -82,13 +82,13 @@ nav a {
 }
 
 nav a:hover {
-    background-color: ;
+    background-color: var(--primary-color);
     color: var(--accent1-color);
 }
 
 .cta {
     background-color: var(--primary-color);
-    color: ;
+    color: var(--accent2-color);
     border: 1px solid #333;
     box-shadow: 10px 10px 5px #333;
     padding: 1em;
@@ -97,13 +97,13 @@ nav a:hover {
 }
 
 .cta:hover {
-    background-color: ;
-    color: ;
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 .cta:active {
-    background-color: ;
-    color: ;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 /* CSS for hero images*/
@@ -142,7 +142,7 @@ nav a:hover {
 }
 
 .hero article p {
-    color: ;
+    color: #000;
     font-size: 20px;
     text-align: center;
     letter-spacing: 2px;
@@ -208,8 +208,8 @@ nav a:hover {
 }
 
 .about:nth-of-type(odd) {
-    background-color: var(--accent1-color)
-    color: var(--nav-hover-link-color);
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
     align-self: center;
 }
 
