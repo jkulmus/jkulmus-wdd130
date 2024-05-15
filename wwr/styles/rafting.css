@@ -113,7 +113,7 @@ nav a:hover {
     grid-row: 1;
 }
 
-.hero>img {
+.hero img {
     grid-column: 1/-1;
     grid-row: 1/6;
 }
