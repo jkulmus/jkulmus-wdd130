@@ -7,9 +7,9 @@
     --accent2-color: #6ca38e;
 
     --nav-background-color: var(--accent2-color)
-    --nav-link-color: ;
+    --nav-link-color: var(--secondary-color);
     --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color: ;
+    --nav-hover-background-color: var(--primary-color);
 
     --heading-font: "Permanent Marker", 'cursive';
     --paragraph-font: 'Roboto', 'san-serif';
