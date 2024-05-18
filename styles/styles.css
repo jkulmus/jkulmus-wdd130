@@ -13,9 +13,12 @@ nav {
 }
 
 nav a {
-    color: white;
-    padding: 10px;
     display: block;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; /% shorthand for white %/
 }
 
 h1 {
