@@ -90,8 +90,6 @@ aside h2 {
     position: absolute;
     top: 3px;
     left: 96px;
-    grid-column: 1;
-    grid-row: 1;
 }
 
 footer {
