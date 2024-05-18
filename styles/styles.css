@@ -102,13 +102,6 @@ main {
     margin: 1rem;
 }
 
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -116,6 +109,13 @@ aside {
     padding: 1rem;
     background-color: lightcyan;
     color: #000;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .indent {
