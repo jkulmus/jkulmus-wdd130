@@ -76,16 +76,16 @@ nav {
     text-align: right;
 }
 
-.nav {
+.navigation {
     display: flex;
     list-style: none;
 }
 
-.nav li {
+.navigation li {
     flex: 1 1 100%;
 }
 
-.nav a {
+.navigation a {
     display: block;
     padding: 20px;
     font-family: var(--heading-font);
@@ -94,7 +94,7 @@ nav {
     letter-spacing: 1px;
 }
 
-nav a:hover {
+.navigation a:hover {
     background-color: var(--primary-color);
     color: var(--accent1-color);
     text-decoration: underline;
