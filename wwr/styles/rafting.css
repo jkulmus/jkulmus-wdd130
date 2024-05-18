@@ -73,15 +73,21 @@ h1 {
 }
 
 nav {
-    display: flex;
-    font-family: var(--heading-font);
-    justify-content: space-around;
+    text-align: right;
 }
 
-nav a {
+.nav {
     display: flex;
-    padding: 1em;
-    margin: 0;
+    list-style: none;
+}
+
+.nav li {
+    flex: 1 1 100%;
+}
+
+.nav a {
+    display: block;
+    padding: 20px;
     font-family: var(--heading-font);
     color: var(--accent2-color);
     font-weight: 700;
@@ -91,6 +97,7 @@ nav a {
 nav a:hover {
     background-color: var(--primary-color);
     color: var(--accent1-color);
+    text-decoration: underline;
 }
 
 .cta {
