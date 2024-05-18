@@ -90,13 +90,12 @@ nav {
     padding: 20px;
     font-family: var(--heading-font);
     color: var(--accent2-color);
-    font-weight: 700;
-    letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .navigation a:hover {
-    background-color: var(--primary-color);
     color: var(--accent1-color);
+    font-weight: 700;
     text-decoration: underline;
 }
 
