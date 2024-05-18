@@ -75,6 +75,16 @@ aside img {
     height: auto;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: .83em;
+    margin-block-end: .83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 aside h2 {
     position: absolute;
     top: 15px;
