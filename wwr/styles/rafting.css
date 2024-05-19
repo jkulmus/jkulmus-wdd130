@@ -58,6 +58,7 @@ header, main, footer {
 
 /* CSS for header */
 header {
+    background-color: #dadccc;
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
