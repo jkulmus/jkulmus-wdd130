@@ -89,7 +89,7 @@ header {
     display : grid;
     grid-template-columns : 200px auto;
     align-items : center;
-    background-color : #dadccc;
+    background-color : #3f3f3f;
 }
 
 nav {
@@ -104,7 +104,7 @@ nav a {
     padding: 0.5rem;
     margin: -0.14rem;
     font-family: var(--heading-font);
-    color: #fff;
+    color: #dadada;
     text-decoration: none;
 }
 
@@ -118,16 +118,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #dadccc;
+    background-color: #3f3f3f;
     margin-top: 100px;
 }
 
 footer p {
-    color: #fff;
+    color: #dadada;
 }
 
 .footer-menu {
-    color: #fff;
+    color: #dadada;
     text-decoration: none;
 }
 
