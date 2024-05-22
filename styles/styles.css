@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color : #dadccc;
+    --secondary-color : #385c5d;
+    --accent1-color : #c37c50;
+    --accent2-color : #6ca38e;
+    
+    --white: #f3eded;
+    --black: #333;
+    --button-color : var(--accent1-color)
+    --button-color-hover : var(--accent2-color)
+    
+    --nav-background-color : var(--primary-color);
+    --nav-link-color : var(--accent2-color)
+    --nav-hover-link-color : var(--accent1-color);
+    --nav-hover-background-color : var(--secondary-color);
+    --heading-font: "Permanent Marker",'cursive';
+    --paragraph-font: 'Roboto','san-serif';
+    }
+
 header {
     display: block;
 }
