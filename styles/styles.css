@@ -22,22 +22,27 @@
     [data-tts-sentence-id].tts-active {
     background : rgb(0, 89, 191, 0.7) !important ;
     }
+
     * {
     margin : 0;
     padding : 0;
     box-sizing : border-box;
     }
+
     body {
     font-size : 16px;
     font-family : Roboto, sans-serif;
     }
+
     header {
     display : block;
     }
+
     header, .grid, footer {
     max-width : 1000px;
     margin : 0 auto;
     }
+
     nav {
     background-color : steelblue;
     padding : 1rem;
@@ -46,6 +51,7 @@
     align-items : center;
     font-family : 'Roboto', sans-serif;
     }
+    
     nav a {
     display : block;
     padding : 1em 3em;
@@ -54,12 +60,15 @@
     font-weight : 700;
     color : #fff;
     }
+
     ul a {
     color : #1a044e;
     }
+
     h1 {
     color : steelblue;
     }
+
     main img {
     width : 200px;
     height : auto;
@@ -69,22 +78,27 @@
     float : right;
     margin : 1em 0;
     }
+
     .text-2 {
     grid-column : 1 / -1;
     }
+
     p {
     padding : 10px;
     }
+
     .grid {
     display : grid;
     grid-template-columns : 1fr 1.5fr;
     gap : 2em 0;
     align-items : center;
     }
+
     main {
     margin : 2rem;
     grid-column : 2;
     }
+
     aside {
     width : 20em;
     border : rgb(0, 0, 0, 0.2) solid 1px;
@@ -94,33 +108,41 @@
     grid-row : 1;
     align-self : center;
     }
+
     aside img {
     width : 200px;
     height : auto;
     }
+
     ul {
     list-style-type : none;
     }
+
     h2 {
     display : block;
     font-size : 1.5em;
     font-weight : bold;
+    text-align: center;
     }
+    
     aside h2 {
     position : absolute;
     align-self : center;
     top : 3px;
     left : 96px;
     }
+
     footer {
     text-align : center;
     background-color : steelblue;
     color : white;
     }
+
     aside {
     width : 20rem;
     position : relative;
     }
+
     .box {
     margin : 1rem;
     border : rgb(0, 0, 0, 0.1) solid 1px;
@@ -128,9 +150,11 @@
     background-color : lightcyan;
     color : #333;
     }
+
     .indent {
     padding-left : 2rem;
     }
+    
     aside {
     width : 20em;
     text-align : center;
