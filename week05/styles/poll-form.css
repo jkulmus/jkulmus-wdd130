@@ -13,65 +13,58 @@
 
 body {
     font-family : 'Montserrat', sans-serif;
-    font-size : 16px;
+    font-size : 18px;
     color : #333;
     background : #fff;
 }
 
 header {
     margin: 0 auto;
-    width: 650px;
+    width: 500px;
 }
 
 h1 {
     margin : 1rem;
     font-size : 1.5em;
-    color : navy;
     text-align: center;
+    color: navy;
 }
 
 form {
-    width: 650px;
+    width: 500px;
     margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    background-color: #eee;
+    padding: 1em;
+    border: 3px solid rgba(5, 15, 193, 0.792);
+    border-radius: 1rem;
+    background-color: rgba(231, 246, 255, 0.991);
     display: grid;
 }
 
 fieldset {
-    display: grid;
-    gap: 0.5rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(5, 15, 193, 0.792);
+    padding: 1.2rem;
 }
 
 legend {
-    padding: 0.5rem;
+    padding: 0.25rem;
     color: navy;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
-label,
-input,
-button,
-select, 
-textarea {
+label, input, button, select, textarea {
     font-family: 'Poetsen One', sans-serif;
+    font-size: 1.1em;
 }
 
 label {
     text-align: right;
-    padding-right: 1rem;
+    padding-right: 0.5em;
 }
 
-input,
-select,
-textarea {
+input, select, textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 input[type="checkbox"] {
@@ -81,38 +74,46 @@ input[type="checkbox"] {
 }
 
 button {
-    margin : 1rem;
+    margin : 0.5em;
     background-color : navy;
     color : #fff;
     border : none;
-    border-radius : 0.5rem;
-    padding : 0.75rem;
-    font-size : 1.2rem;
+    border-radius : 0.5em;
+    padding : 0.75em;
+    width: 10em;
+    font-size : 1.25em;
 }
 
 button:hover {
     background-color : darkblue;
+    color: #777;
 }
 
 footer {
-    margin: 1rem auto 0;
-    width: 650px;
+    margin: 1em auto 0;
+    width: 400px;
     text-align: center;
+    padding: .5em;
     font-size: 0.8em;
-    color: #777;
+    color: white;
     border-top: 1px solid #ccc;
 }
 
-.form-item {
+.form-items {
     display: grid;
     align-items: center;
 }
 
 .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+    margin: 1em 0;
 }
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+    margin: .5em 0;
+}
+
+.feedback {
+    text-align: right;
 }
