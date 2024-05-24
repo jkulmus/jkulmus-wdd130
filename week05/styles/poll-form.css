@@ -76,8 +76,9 @@ textarea {
 input[type="checkbox"] {
     width : 22px;
     height : 22px;
-    vertical-align : bottom;
-    margin-right: 0.5rem;
+    vertical-align: auto;
+    margin-left: 35rem;
+    text-align: end;
 }
 
 button {
@@ -85,8 +86,8 @@ button {
     background-color : navy;
     color : #fff;
     border : none;
-    border-radius : 0.5rem;
-    padding : 0.75rem;
+    border-radius : 1.5rem;
+    padding : 1rem;
     font-size : 1.2rem;
 }
 
