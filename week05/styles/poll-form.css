@@ -1,94 +1,108 @@
 [data-tts-block-id].tts-active {
     background : rgb(206, 225, 255, 0.9) !important ;
-    }
-    [data-tts-sentence-id].tts-active {
+}
+[data-tts-sentence-id].tts-active {
     background : rgb(0, 89, 191, 0.7) !important ;
-    }
-    * {
+}
+
+* {
     margin : 0;
     padding : 0;
     box-sizing : border-box;
-    }
-    body {
-    font-family : Montserrat, sans-serif;
-    font-size : 1.2em;
+}
+
+body {
+    font-family : 'Montserrat', sans-serif;
+    font-size : 16px;
     color : #333;
     background : #fff;
-    }
-    header {
+}
+
+header {
     margin : 0 auto;
-    width : 650px;
-    }
-    h1 {
-    margin : 1rem;
+    max-width: 650px;
+}
+
+h1 {
+    margin : 1rem auto;
     font-size : 1.5rem;
     color : navy;
-    text-align : center;
-    }
-    form {
+}
+
+form {
     margin : 0 auto;
     padding : 1rem;
-    border : rgb(0, 0, 0, 0.1) solid 1px;
+    border : 1px solid rgba(0, 0, 0, 0.1);
     border-radius : 0.5rem;
     background-color : #eee;
     display : grid;
-    }
-    fieldset {
-    display : grid;
-    gap : 0.5rem;
-    margin : 1rem;
-    border : rgb(0, 0, 0, 0.2) solid 1px;
+}
+
+fieldset {
+    margin : 1rem 0;
+    border : 1px solid rgba(0, 0, 0, 0.2);
     padding : 1rem;
-    }
-    legend {
-    padding : 0.5rem;
-    color : navy;
-    font-size : 1.3em;
-    }
-    label, input, button, select, textarea {
-    font-family : "Poetsen One", sans-serif;
-    }
-    label {
+}
+
+legend {
+padding : 0.5rem;
+color : navy;
+font-size : 1.3em;
+}
+
+label {
     text-align : right;
     padding-right : 1rem;
-    }
-    input, select, textarea {
-    padding : 0.5rem;
-    font-size : 1.1rem;
-    }
-    input[type="checkbox"] {
-    width : 22px;
-    height : 22px;
-    vertical-align : bottom;
-    }
-    button {
-    margin : 1rem;
+}
+
+input,
+select, 
+textarea {
+    font-family : "Poetsen One", sans-serif;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+width : 22px;
+height : 22px;
+vertical-align : bottom;
+}
+
+button {
+    margin : 1rem auto;
     background-color : navy;
     color : #fff;
     border : none;
     border-radius : 0.5rem;
-    padding : 0.75rem;
+    padding : 0.75rem 1.5rem;
     font-size : 1.2rem;
-    }
-    button:hover {
+    cursor: pointer;
+}
+
+button:hover {
     background-color : darkblue;
-    }
-    footer {
+}
+
+footer {
     margin : 1rem auto 0;
     width : 650px;
     text-align : center;
     font-size : 0.8em;
     color : #777;
     border-top : 1px solid #ccc;
-    }
-    .form-item {
+}
+
+.form-item {
     display : grid;
     align-items : center;
-    }
-    .column1 {
-    grid-template-columns : 3fr 1fr;
-    margin : 0.5rem 0;
-    }
-    .column2 {
-    grid-template-columns : 1fr 2fr;
-    }
+    margin: 0.5rem 0;
+}
+
+.column1 {
+grid-template-columns : 3fr 1fr;
+}
+
+.column2 {
+grid-template-columns : 1fr 2fr;
+}
