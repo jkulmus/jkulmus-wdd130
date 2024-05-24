@@ -14,7 +14,7 @@ h1 {
 form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -55,5 +55,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #0057b3b5;
 }
