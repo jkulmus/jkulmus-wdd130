@@ -6,10 +6,15 @@
     --accent1-color: #c37c50;
     --accent2-color: #6ca38e;
 
-    --nav-background-color: var(--accent2-color)
-    --nav-link-color: var(--secondary-color);
+    --white: #f3eded;
+    --black: #000;
+    --button-color: #hsl(36, 89%, 47%);
+    --button-color-hover: #hsl(36, 89%, 57%);
+
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: #fff;
     --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color: var(--primary-color);
+    --nav-hover-background-color: #fff;
 
     --heading-font: "Permanent Marker", 'cursive';
     --paragraph-font: 'Roboto', 'san-serif';
