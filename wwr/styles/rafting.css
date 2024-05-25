@@ -112,6 +112,7 @@ nav a {
     font-family: var(--heading-font);
     color : #dadada;
     text-decoration : none;
+    font-size: x-large;
 }
 
 nav a:hover {
@@ -465,13 +466,13 @@ footer p {
 }
 
 figure:nth-of-type(odd) {
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: var(--nav-link-color);
     align-self : center;
 }
 
 figure:nth-of-type(even) {
-    background-color: var(--accent2-color);
+    background-color: #3f3f3f;
     color: var(--nav-link-color);
     align-self : center;
 }
