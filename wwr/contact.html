@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Contact Us | White Water Rafting Co</title>
-        <meta name="description" content="Contact Us page">
-        <meta name="author" content="Jacquelyn Kulmus">
-        <link rel="stylesheet" href="styles/rafting.css">
-        <style type="text/css" id="tts-styles">
-            [data-tts-block-id].tts-active {background : rgb(206, 225, 255, 0.9) !important ;} [data-tts-sentence-id].tts-active {background : rgb(0, 89, 191, 0.7) !important ;}
-        </style>
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | White Water Rafting Co</title>
+    <meta name="description" content="Contact Us page">
+    <meta name="author" content="Jacquelyn Kulmus">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
             <img src="images/river-rafting-logo.png" alt="Rafting Site Logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-        <main>
-            <div class="hero">
-                <img src="images/hero.png" alt="Hero Image">
-                <h1 class="abs-heading1">White Water Rafting Co</h1>
-                <article class="abs-article">
-                    <img src="images/hero-article.png" alt="happy client">
-                    <p>
-                        "Hief ienifni idsi tidf i filkjsj kjhgdj
-                        hddf kjyui fghdd sgfuj hkjuk hjghgd.
-                    </p>
-                </article>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class=" grid contactus">
+        <img src="images/hero.png" alt="little" class="con-hero">
+        <form action="#" class="contact">
+            <fieldset class="contact-fields"></fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="from">
+                <label for="email">e-Mail</label>
+                <input type="email" name="email" id="email">
+                <label for="reason">Reason for contacting us?</label>
+                <select name="reason" id="reason">
+                    <option value selected disabled>--Please select One --</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question </option>
+                    <option value="suggestion">Website Suggestion/option></option>
+                </select>
+                <label for="comment">Please enter your comment:</label>
+                <textarea name="comment" id="comment" cols="35" rows="10"></textarea>
+                <div class="signup">
+                    <input type="checkbox" name="subscribe" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+            <button type="submit" class="submit">Send Message</button>
+        </form>
+        <div class="address">
+            <div class="add-phone">
+                <address>
+                    "507 Delafield Ave,"<br>
+                    "Richland, WA 99352"
+                </address>
+                <a href="tel:123 456-5678">(123) 456-5678</a>
+                <a href="mailto:info@whitewaterraftingco.com">email: info@whitewaterraftingco.com</a>
             </div>
-            <section class="history">
-                <h2>History</h2>
-                <p>kljfdkld djkfjl jfiel n fowenlk dkjh hwuhej jdfhk.
-                    dhwj kjsdf owjdhts skjthn skjdf.
-                </p>
+            <iframe src="">
+            #doc
+            </iframe>
+        </div>
+        <hr class="hrule">
+        <div class="grid employees">
+            <figure class="employee">
                 <img src="" alt="">
-                <p>
-                    "kjdfh e jwknkjf kjdfw kjbs ejktkksb. asjkfhejht skjd skjeb
-                    sdjfh.dh fjdhs fhskje siej ksjethhs."
-                </p>
-            </section>
-            <section class="adventures">
-                <h2>Adventure Awaits You!</h2>
-                <figure>
-                    <img src="images/wwr1.jpg" alt="White Water Rafting 1">
-                    <figcaption>A Big One</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wwr2.jpg" alt="White Water Rafting 2">
-                    <figcaption>Having Fun</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wwr3.jpg" alt="White Water Rafting 3">
-                    <figcaption>Working Together</figcaption>
-                </figure>                
-                <figure>
-                    <img src="images/wwr4.jpg" alt="White Water Rafting 4">
-                    <figcaption>A Full Load</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wwr5.jpg" alt="White Water Rafting 5">
-                    <figcaption>Beautiful River</figcaption>
-                </figure>
-                
-            </section>
-        </main>
-        <footer>
-            <p>
-                &copy; 
-                <span id="demo">2024</span>
-                White Water Rafting Co | Jacquelyn Kulmus
-            </p>
-            <a href="#open-modal" class="footer-menu">Wirefram</a>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.png" alt="Facebook"></a>
-                <a href="https://twitter.com">
-                    <img src="images/twitter.png" alt="Twitter"></a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.png" alt="Instagram"></a>
-                </nav>
-        </footer>
-    </body>
+                <figcaption></figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; 
+            <span id="demo">2024</span>
+            White Water Rafting Co | Jacquelyn Kulmus
+        </p>
+        <a href="#open-modal" class="footer-menu">Wirefram</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            </nav>
+    </footer>
+</body>
 </html>
