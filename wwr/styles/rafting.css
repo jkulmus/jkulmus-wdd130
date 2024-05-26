@@ -534,8 +534,8 @@ label {
 }
 
 input:focus, textarea:focus, select:focus {
-    border : 1px solid #d81616;
-    background-color : #1cfc63;
+    border : 1px solid #151313;
+    background-color : #d7efde;
     color : #3f3f3f;
 }
 
