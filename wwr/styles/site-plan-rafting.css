@@ -93,9 +93,10 @@ padding : 25px;
 }
 
 nav {
-background-color : #dadccc;
-font-size : 1.2rem;
-display : flex;
+    display : flex;
+    font-family: var(--heading-font);
+    text-decoration : none;
+    justify-content : space-around;
 }
 
 nav a {
