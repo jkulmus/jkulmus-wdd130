@@ -86,6 +86,7 @@ header {
     grid-template-columns : 200px auto;
     align-items : center;
     background-color : #3f3f3f;
+    text-align: center;
 }
 
 p {
