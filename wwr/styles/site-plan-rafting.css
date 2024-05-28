@@ -100,19 +100,19 @@ nav {
 }
 
 nav a {
-display : block;
-color : #6ca38e;
-text-decoration : none;
-padding : 1rem;
-}
-
-nav a:link, nav a:visited {
-color : #6ca38e;
+    display : flex;
+    padding : 0.5rem;
+    margin : -0.14rem;
+    font-family: var(--heading-font);
+    color : #dadada;
+    text-decoration : none;
+    font-size: x-large;
+    background-color: #3f3f3f;
 }
 
 nav a:hover {
-color : #c37c50;
-background-color : #6ca38e;
+    background-color : #fff;
+    color : #c37c50;
 }
 
 footer {
