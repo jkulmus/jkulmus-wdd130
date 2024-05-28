@@ -113,3 +113,21 @@ nav a:hover {
 color : #c37c50;
 background-color : #6ca38e;
 }
+
+footer {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 1rem;
+    background-color : #3f3f3f;
+    margin-top : 100px;
+}
+
+footer p {
+    color : #dadada;
+}
+
+.footer-menu {
+    color : #dadada;
+    text-decoration : none;
+}
