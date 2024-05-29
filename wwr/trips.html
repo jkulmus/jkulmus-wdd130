@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trips | White Water Rafting Co</title>
+    <meta name="description" content="Trips page">
+    <meta name="author" content="Jacquelyn Kulmus">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/river-rafting-logo.png" alt="Rafting Site Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main class=" grid contactus">
+        <img src="images/hero.png" alt="little" class="con-hero">
+        <form action="#" class="contact">
+            <fieldset class="contact-fields"></fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="from">
+                <label for="email">e-Mail</label>
+                <input type="email" name="email" id="email">
+                <label for="reason">Reason for contacting us?</label>
+                <select name="reason" id="reason">
+                    <option value selected disabled>--Please select One --</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="reservation">Reservation Question </option>
+                    <option value="suggestion">Website Suggestion/option></option>
+                </select>
+                <label for="comment">Please enter your comment:</label>
+                <textarea name="comment" id="comment" cols="35" rows="10"></textarea>
+                <div class="signup">
+                    <input type="checkbox" name="subscribe" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+            <button type="submit" class="submit">Send Message</button>
+        </form>
+        <div class="address">
+            <div class="add-phone">
+                <address>
+                    "Columbia Plateau Trail,"<br>
+                    "Pasco, WA 99301"
+                </address>
+                <a href="tel:123456-5678">(123) 456-5678</a>
+                <a href="mailto:info@whitewaterraftingco.com">email: info@whitewaterraftingco.com</a>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35035.97740498233!2d-118.8723029551935!3d46.252010952774164!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549881f7d6e6c4fd%3A0xf39189d80f562720!2sNorth%20Shore%20Recreation%20Area%20and%20Boat%20Ramp!5e0!3m2!1sen!2sus!4v1716693888723!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <hr class="hrule">
+        <div class="grid employees">
+            <figure class="employee">
+                <img src="images/ceo.png" alt="CEO">
+                <figcaption>CEO</figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/sales.png" alt="sales rep">
+                <figcaption>Sales Rep</figcaption>
+            </figure>
+            <figure class="employee">
+                <img src="images/guide.png" alt="guide">
+                <figcaption>Lead Tour Guide</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; 
+            <span id="demo">2024</span>
+            White Water Rafting Co | Jacquelyn Kulmus
+        </p>
+        <a href="#open-modal" class="footer-menu">Wirefram</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            </nav>
+    </footer>
+    <script>
+        const date = new Date(document.lastModified);
+        document.getElementById("demo").innerHTML = date.getFullYear();
+    </script>
+</body>
+</html>
