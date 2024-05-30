@@ -4,6 +4,11 @@
 [data-tts-sentence-id].tts-active {
     background : rgb(0, 89, 191, 0.7) !important ;
 }
+.shadows-into-light-regular {
+font-family : "Shadows Into Light", cursive;
+font-weight : 400;
+font-style : normal;
+}
 
 * {
     margin : 0;
