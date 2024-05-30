@@ -27,8 +27,8 @@
     --nav-hover-link-color:var(--accent2-color);
     --nav-hover-background-color: #fff;
 
-    --heading-font: "Permanent Marker", 'cursive';
-    --paragraph-font: 'Roboto', 'san-serif';
+    --heading-font: "Shadows Into Light", 'static';
+    --paragraph-font: "Roboto Slab", 'san-serif';
 }
 
 body {
