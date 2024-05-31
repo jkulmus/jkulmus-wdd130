@@ -89,44 +89,6 @@ h6 {
     font-size : 1rem;
 }
 
-nav {
-    display : flex;
-    text-decoration : none;
-    justify-content : space-around;
-}
-
-nav a {
-    display : flex;
-    padding : 0.5rem;
-    margin : -0.14rem;
-    color : #dadada;
-    text-decoration : none;
-    font-size : x-large;
-}
-
-nav a:hover {
-    background-color : #fff;
-    color : #c37c50;
-}
-
-footer {
-    display : flex;
-    justify-content : space-between;
-    align-items : center;
-    padding : 1rem;
-    background-color : #3f3f3f;
-    margin-top : 100px;
-}
-
-footer p {
-    color : #dadada;
-}
-
-.footer-menu {
-    color : #dadada;
-    text-decoration : none;
-}
-
 header, main, footer {
     max-width : 1280px;
     margin : auto;
@@ -141,7 +103,7 @@ header {
 }
 
 p {
-padding : 25px;
+    padding : 25px;
 }
 
 nav {
@@ -167,6 +129,11 @@ nav a:hover {
     color : #c37c50;
 }
 
+.footer-menu {
+    color : #dadada;
+    text-decoration : none;
+}
+
 footer {
     display : flex;
     justify-content : space-between;
@@ -183,4 +150,17 @@ footer p {
 .footer-menu {
     color : #dadada;
     text-decoration : none;
+}
+
+.sociallinks {
+    display : flex;
+    gap : 1rem;
+}
+
+.sociallinks img {
+    width : 2rem;
+}
+
+.sociallinks a:hover {
+    background-color : unset;
 }
