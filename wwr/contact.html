@@ -23,6 +23,21 @@
     <main class=" grid contactus">
         <img src="images/hero.png" alt="little" class="con-hero">
         <form action="#" class="contact">
+            <fieldset>
+                <legend>Purpose of Contact</legend>
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Questions
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+            </fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="from" required>
                 <label for="email">e-Mail</label>
