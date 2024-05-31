@@ -48,9 +48,7 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing : border-box;
 }
 
-*, *:before, *:after {
-    box-sizing : border-box;
-}
+
 
 /* Typography */
 h1 { font-size : 3rem;}
@@ -60,14 +58,6 @@ h4 { font-size : 1.5rem;}
 h5 { font-size : 1.25rem;}
 h6 { font-size : 1rem;}
 
-p {
-    padding : 10px;
-    color : #000;
-}
-
-img {
-    width : 100%;
-}
 
 a { text-decoration : none;}
 
