@@ -555,6 +555,11 @@ input:focus, textarea:focus, select:focus {
 
 .employee {
     margin : 0;
+    text-align: center;
+}
+
+.employee img {
+    width: 100%;
 }
 
 .employee:nth-of-type(1) {
@@ -573,6 +578,9 @@ input:focus, textarea:focus, select:focus {
     border : rgb(4, 17, 252, 0.644) solid 10px;
     grid-column : 1 / -1;
 }
+
+
+/*Trips*/
 
 .trips-grid {
     display : grid;
