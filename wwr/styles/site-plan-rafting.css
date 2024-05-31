@@ -3,6 +3,7 @@
 [data-tts-block-id].tts-active {
     background : rgb(206, 225, 255, 0.9) !important ;
 }
+
 [data-tts-sentence-id].tts-active {
     background : rgb(0, 89, 191, 0.7) !important ;
 }
