@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Shadows+Into+Light&display=swap') ;
-
 [data-tts-block-id].tts-active {
-background : rgb(206, 225, 255, 0.9) !important ;
+    background : rgb(206, 225, 255, 0.9) !important ;
 }
 
 [data-tts-sentence-id].tts-active {
-background : rgb(0, 89, 191, 0.7) !important ;
+    background : rgb(0, 89, 191, 0.7) !important ;
 }
 
 :root {
-    --primary-color: #dadccc;
-    --secondary-color: #385c5d;
-    --accent1-color: #c37c50;
-    --accent2-color: #6ca38e;
+    --primary-color : #dadccc;
+    --secondary-color : #385c5d;
+    --accent1-color : #c37c50;
+    --accent2-color : #6ca38e;
+    --white : #f3eded;
+    --black : #000;
+    --button-color : hsl(36 89% 47%);
+    --button-color-hover : hsl(36 89% 57%);
+    --nav-background-color : var(--accent2-color);
+    --nav-link-color : #fff;
+    --nav-hover-link-color : var(--accent2-color);
+    --nav-hover-background-color : #fff;
+    --heading-font : "Shadows Into Light",'static';
+    --paragraph-font : "Roboto Slab",'san-serif';
+}
 
-    --white: #f3eded;
-    --black: #000;
-    --button-color: hsl(36, 89%, 47%);
-    --button-color-hover: hsl(36, 89%, 57%);
-
-    --nav-background-color: var(--accent2-color);
-    --nav-link-color: #fff;
-    --nav-hover-link-color:var(--accent2-color);
-    --nav-hover-background-color: #fff;
-
-    --heading-font: "Shadows Into Light", 'static';
-    --paragraph-font: "Roboto Slab", 'san-serif';
+h1, h2, h3, h4, h5, h6 {
+    color : var(--secondary-color);
 }
 
 body {
