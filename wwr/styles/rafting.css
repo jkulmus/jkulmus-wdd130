@@ -437,16 +437,18 @@ footer p {
 
 figure:nth-of-type(odd) {
     align-self : center;
+    background-color: #3f3f3f
 }
 
 figure:nth-of-type(even) {
-    background-color : #3f3f3f;
+    background-color : var(--accent1-color);
     align-self : center;
 }
 
 figcaption {
     text-align : center;
     padding : 1em 0;
+    color: var(--white);
 }
 
 .history {
