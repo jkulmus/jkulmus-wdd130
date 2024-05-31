@@ -99,6 +99,7 @@ header {
     grid-template-columns : 200px auto;
     align-items : center;
     background-color : #3f3f3f;
+    font-family: var(--heading-font);
 }
 
 nav {
