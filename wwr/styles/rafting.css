@@ -475,10 +475,10 @@ figcaption {
     grid-column : 1 / 6;
     grid-row : 1 / 3;
     margin : 0 1em;
-    background-color : rgb(59, 148, 175, 0.304);
+    background-color : rgba(1, 36, 46, 0.813);
     padding: 20px;
     border-radius: 10px;
-    border: 2px solid #3b94af;
+    border: 2px solid #053442;
 }
 
 .contact-fields {
@@ -513,8 +513,8 @@ input:focus, textarea:focus, select:focus {
 .submit {
     padding : 1.5em;
     margin : 1em;
-    background-color : #040466;
-    color : #f3f3f3;
+    background-color : var(--white);
+    color : #3f3f3f;
     border : #3e3e3e solid 1px;
     box-shadow : 5px 3px 3px #000;
     border-radius : 25px;
@@ -528,9 +528,6 @@ input:focus, textarea:focus, select:focus {
     grid-row : 1 / 3;
     display : grid;
     grid-template-rows : 1fr 2fr;
-    background-color: rgb(59, 148, 175, 0.304);
-    padding: 20px;
-    border-radius: 10px;
 }
 
 .add-phone,
@@ -575,7 +572,7 @@ input:focus, textarea:focus, select:focus {
 }
 
 .hrule {
-    border : rgb(4, 17, 252, 0.644) solid 10px;
+    border : #3f3f3f solid 10px;
     grid-column : 1 / -1;
 }
 
