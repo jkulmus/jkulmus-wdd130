@@ -16,8 +16,8 @@ background : rgb(0, 89, 191, 0.7) !important ;
 
     --white: #f3eded;
     --black: #000;
-    --button-color: #hsl(36, 89%, 47%);
-    --button-color-hover: #hsl(36, 89%, 57%);
+    --button-color: hsl(36, 89%, 47%);
+    --button-color-hover: hsl(36, 89%, 57%);
 
     --nav-background-color: var(--accent2-color);
     --nav-link-color: #fff;
