@@ -75,6 +75,43 @@ h6 {
     font-size : 1rem;
 }
 
+nav {
+    display : flex;
+    text-decoration : none;
+    justify-content : space-around;
+}
+
+nav a {
+    display : flex;
+    padding : 0.5rem;
+    margin : -0.14rem;
+    color : #dadada;
+    text-decoration : none;
+    font-size : x-large;
+}
+
+nav a:hover {
+    background-color : #fff;
+    color : #c37c50;
+}
+
+footer {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 1rem;
+    background-color : #3f3f3f;
+    margin-top : 100px;
+}
+
+footer p {
+    color : #dadada;
+}
+
+.footer-menu {
+    color : #dadada;
+    text-decoration : none;
+}
 
 header, main, footer {
     max-width : 1280px;
