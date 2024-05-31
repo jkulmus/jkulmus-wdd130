@@ -1,15 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Shadows+Into+Light&display=swap');
+
 [data-tts-block-id].tts-active {
     background : rgb(206, 225, 255, 0.9) !important ;
 }
 
 [data-tts-sentence-id].tts-active {
     background : rgb(0, 89, 191, 0.7) !important ;
-}
-
-.shadows-into-light-regular {
-    font-family : "Shadows Into Light", cursive;
-    font-weight : 400;
-    font-style : normal;
 }
 
 :root {
@@ -28,8 +24,22 @@
     --nav-hover-link-color:var(--accent2-color);
     --nav-hover-background-color: #fff;
 
-    --heading-font: "Roboto Slab", 'san-serif';
-    --paragraph-font: "Shadows Into Light", 'static';
+    --heading-font: "Shadows Into Light", 'static';
+    --paragraph-font: "Roboto Slab", 'san-serif';
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 * {
