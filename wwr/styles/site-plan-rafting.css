@@ -7,11 +7,6 @@
     background : rgb(0, 89, 191, 0.7) !important ;
 }
 
-.coolors-palette-widget .coolors-palette-widget_colors div span, .coolors-palette-widget .coolors-palette-widget_info_link, .coolors-palette-widget .coolors-palette-widget_info_name {
-    all : initial;
-    font-family : Coolors-Inter, sans-serif;
-}
-
 * {
     margin : 0;
     padding : 0;
