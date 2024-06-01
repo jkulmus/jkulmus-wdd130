@@ -617,16 +617,8 @@ input:focus, textarea:focus, select:focus {
     text-align: center;
 }
 
-.trip-duration {
-    grid-column : 1;
-}
-
-.trip-cost {
-    grid-column : 2;
-}
-
-.trip-name {
-    grid-column : 3;
+.contact-info {
+    text-align: center;
 }
 
 .trip-cost:nth-of-type(even), 
