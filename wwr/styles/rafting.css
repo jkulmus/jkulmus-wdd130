@@ -609,8 +609,23 @@ section {
 
 .trips-grid {
     display : grid;
-    grid-template-columns : 1fr;
-    grid-gap : 1px;
+    grid-template-columns : repeat(3, 1fr);
+    gap: 1em 5px;
+    margin: 50px auto;
+}
+
+.trip img {
+    width: 100%;
+}
+
+.trip figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.trip-details {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .trips-grid h2 {
@@ -680,55 +695,15 @@ thead {
     letter-spacing : 1px;
 }
 
-.trips {
-    gap : 50px;
+.other-adventures {
+    border: 1px solid var(--accent1-color);
+    font-size: 1em;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
 }
 
-/* Grid Layout */
-
-.cols12 {
-    grid-column : 1 / 13;
-}
-
-.cols2-6 {
-    grid-column : 2 / 6;
-}
-
-.cols8-12 {
-    grid-column : 8 / 12;
-}
-
-.cols9-12 {
-    grid-column : 9 / 12;
-}
-
-.cols4-9 {
-    grid-column : 4 / 9;
-}
-.cols4-10 {
-    grid-column : 4 / 10;
-}
-
-.rows2 {
-    grid-row : 1 / 3;
-}
-
-.rows4 {
-    grid-row : 1 / 5;
-}
-
-.rows8 {
-    grid-row : 1 / 9;
-}
-
-.row2 {
-    grid-row : 2;
-}
-
-.row3 {
-    grid-row : 3;
-}
-
-.row4 {
-    grid-row : 4;
+.other-adventures h2 {
+    text-align: center;
 }
