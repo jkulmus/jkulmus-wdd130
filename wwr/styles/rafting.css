@@ -582,11 +582,11 @@ input:focus, textarea:focus, select:focus {
 }
 
 .hrule {
-    border: #3f3f3f solid 10px;
-    grid-column: 1/-1;
+    border: rgba(1, 36, 46, 0.813) solid 10px;
+    grid-column: 1 / -1;
     grid-row: 3;
     display: block;
-    border-width: 1px;
+    border-width: 15px;
 }
 
 
