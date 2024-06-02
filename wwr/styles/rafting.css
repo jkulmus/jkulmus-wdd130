@@ -592,6 +592,21 @@ input:focus, textarea:focus, select:focus {
 
 /*Trips*/
 
+.trip-heading1 {
+    text-align: center;
+}
+
+.grid.trips {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trip-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .trip {
     display: block;
     margin-bottom: 10px;
@@ -607,9 +622,17 @@ section {
     unicode-bidi: isolate;
 }
 
+.featured {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    gap: 2em;
+    justify-items: center;
+}
+
 .trips-grid {
     display : grid;
-    grid-template-columns : repeat(3, 1fr);
+    grid-template-columns : 3fr;
     gap: 1em 5px;
     margin: 50px auto;
 }
