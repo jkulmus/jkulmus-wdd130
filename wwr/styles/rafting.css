@@ -621,7 +621,7 @@ input:focus, textarea:focus, select:focus {
     text-align: center;
 }
 
-section {
+.section {
     display: block;
     unicode-bidi: isolate;
 }
@@ -643,11 +643,6 @@ section {
 
 .trip img {
     width: 100%;
-}
-
-.trip figcaption {
-    margin-top: 10px;
-    font-weight: bold;
 }
 
 .trip-details {
