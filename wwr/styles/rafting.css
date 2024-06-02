@@ -607,6 +607,10 @@ input:focus, textarea:focus, select:focus {
     align-items: center;
 }
 
+.trip-details-wrapper {
+    margin-top: 10px;
+}
+
 .trip {
     display: block;
     margin-bottom: 10px;
