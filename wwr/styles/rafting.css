@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Shadows+Into+Light&display=swap');
 
-[data-tts-block-id].tts-active,
-[data-tts-sentence-id].tts-active {
-    background : rgb(206, 225, 255, 0.9) !important ;
-}
 
 * {
     margin : 0;
